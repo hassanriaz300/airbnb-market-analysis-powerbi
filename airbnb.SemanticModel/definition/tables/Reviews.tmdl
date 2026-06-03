@@ -1,0 +1,58 @@
+table Reviews
+	lineageTag: 93b8ee7f-9b14-4dfd-9f3b-aa33115643dc
+
+	column listing_id
+		dataType: int64
+		formatString: 0
+		lineageTag: d7bbd24a-6a96-4f9d-9d1f-7eee1c85bb7b
+		summarizeBy: none
+		sourceColumn: listing_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column review_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 261cf6c9-0914-4c21-80de-0620fd77eab5
+		summarizeBy: sum
+		sourceColumn: review_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: d28dd2cd-92d4-4c2d-89b0-6cd3fd232ae6
+		summarizeBy: none
+		sourceColumn: date
+
+		variation Variation
+			isDefault
+			relationship: 20afbeb8-fe45-4c56-a60e-ec7abcacd0d6
+			defaultHierarchy: LocalDateTable_9b920015-3037-4384-9fca-075481da60fd.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column reviewer_id
+		dataType: int64
+		formatString: 0
+		lineageTag: a7f00f74-d1a7-4337-ba56-56768aa082f8
+		summarizeBy: sum
+		sourceColumn: reviewer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Reviews = m
+		mode: import
+		source =
+				let
+				  Source = Csv.Document(File.Contents("C:\Users\hassa\Desktop\Data projects\DataSets\Airbnb Data\Reviews.csv"), [Delimiter = ",", Columns = 4, QuoteStyle = QuoteStyle.None]),
+				  #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				  #"Changed column type" = Table.TransformColumnTypes(#"Promoted headers", {{"listing_id", Int64.Type}, {"review_id", Int64.Type}, {"date", type date}, {"reviewer_id", Int64.Type}}, "en-US")
+				in
+				  #"Changed column type"
+
+	annotation PBI_ResultType = Table
+

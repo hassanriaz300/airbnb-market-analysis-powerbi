@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "1f2c0430703cc6b937ba",
+  "position": {
+    "x": 68.019323671497588,
+    "y": 635.36231884057975,
+    "z": 19001,
+    "height": 85.024154589371989,
+    "width": 831.6908212560387,
+    "tabOrder": 19001
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "The dashboard shows 279,712 total listings across 10 cities, managed by 182,024 hosts, with 144 property types and around 5M reviews. Listing growth increased strongly after 2012 and reached its highest point around 2015–2016. Entire place and private room listings dominate the market, while shared rooms and hotel rooms remain much smaller. After 2016, listing growth slowed down and later declined sharply around 2020, likely due to COVID-19 impact on travel and short-term rentals.",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI Semibold",
+                      "fontSize": "9pt"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

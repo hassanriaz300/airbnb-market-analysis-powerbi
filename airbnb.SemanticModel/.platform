@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "airbnb"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f157ec92-80ca-4ba4-b85c-84991bfd2ad0"
+  }
+}
