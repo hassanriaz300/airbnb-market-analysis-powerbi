@@ -96,6 +96,48 @@ table Listings
 		formatString: 0.0%;-0.0%;0.0%
 		lineageTag: 6f636ece-b5ca-4641-9c3a-b03dfd83b8ac
 
+	measure 'Avg Price' =
+			
+			AVERAGE(Listings[price])
+		formatString: \$#,0;(\$#,0);\$#,0
+		lineageTag: dd9577e4-f7c8-4df0-941f-1c0f50b69095
+
+		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
+
+	measure 'Avg Rating' =
+			
+			AVERAGE(Listings[review_scores_rating])
+		formatString: 0.0
+		lineageTag: ffa4dc8e-be9a-4a6e-a585-3561b9467f02
+
+	measure Accuracy =
+			
+			AVERAGE(Listings[review_scores_accuracy])
+		lineageTag: 1c18f93e-914e-4fcc-8f57-cb3e2b48f7b9
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Cleanliness =
+			
+			AVERAGE(Listings[review_scores_cleanliness])
+		lineageTag: e0eeb5a9-dc2c-4b25-b09e-9d9e6a4e33e6
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Location =
+			
+			AVERAGE(Listings[review_scores_location])
+		lineageTag: 07df8572-c25b-4ac7-bbf7-61fd668a3ad9
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Communication =
+			
+			AVERAGE(Listings[review_scores_communication])
+		lineageTag: 030069db-d535-4368-b4ed-a129bf75c04f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	column listing_id
 		dataType: int64
 		formatString: 0

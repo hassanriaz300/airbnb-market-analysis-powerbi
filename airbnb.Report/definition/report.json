@@ -37,6 +37,22 @@
           "type": "BaseTheme"
         }
       ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "icons8-magnifying-glass-1005633312301241142.png",
+          "path": "icons8-magnifying-glass-1005633312301241142.png",
+          "type": "Image"
+        },
+        {
+          "name": "icons8-star-6444192524841153447.png",
+          "path": "icons8-star-6444192524841153447.png",
+          "type": "Image"
+        }
+      ]
     }
   ],
   "settings": {
