@@ -254,31 +254,9 @@ AVERAGE(Listings[review_scores_communication])
 
 The dashboard uses a clean BI-style layout with KPI cards, rounded containers, consistent spacing, and a limited color palette.
 
-### Color Palette
+### Color Palette & Typography
 
-| Purpose | Hex Code |
-|---|---|
-| Main Color | `#0F5C5C` |
-| Secondary Color | `#16CBCB` |
-| Page Background | `#F7F8FA` |
-| Chart Teal | `#1B8A87` |
-| Chart Coral Red | `#F45B69` |
-| Chart Yellow | `#F6B82F` |
-| Chart Green | `#79A95C` |
-| Chart Purple | `#8C78B5` |
-
----
-
-## Typography
-
-The dashboard uses Segoe UI for a clean and readable Power BI design.
-
-| Usage | Font Style |
-|---|---|
-| Section Titles | Segoe UI, 14 pt |
-| Chart Titles / KPI Labels | Segoe UI, 12 pt |
-| Body Text / Axis Labels | Segoe UI, 11 pt |
-| Legends / Notes | Segoe UI, 9 pt |
+![Ratings Analysis](data/Style%20guide.png)
 
 ---
 
