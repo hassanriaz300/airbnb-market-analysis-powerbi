@@ -58,7 +58,7 @@ Main visuals include:
 - Bookmark navigation between overall and detailed views
 - Key insight text explaining rating and market patterns
 
-![Ratings Analysis](screenshots/Screenshot Rating Analysis.png)
+![Ratings Analysis](screenshots/Screenshot%20Rating%20Analysis.png)
 
 ---
 
@@ -300,12 +300,11 @@ The dashboard uses Segoe UI for a clean and readable Power BI design.
 ├── airbnb.pbip
 ├── airbnb.Report/
 ├── airbnb.SemanticModel/
-├── data/
+├── data/icons and formating style
 ├── docs/
 ├── screenshots/
-│   ├── dashboard-overview.png
-│   ├── market-overview.png
-│   └── ratings-analysis.png
+│   ├── Screenshot Ratin Analysis.png
+│   └── Screenshot Overview.png
 └── README.md
 ```
 
