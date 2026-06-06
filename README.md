@@ -41,7 +41,7 @@ Main visuals include:
 - Key insights section
 - City slicer for interactive filtering
 
-![Market Overview](screenshots/market-overview.png)
+
 
 ---
 
