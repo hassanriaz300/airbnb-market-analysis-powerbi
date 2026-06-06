@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "a8aeaca181106e0b10da",
+  "position": {
+    "x": 210.22256331542593,
+    "y": 664.067536454336,
+    "z": 39000,
+    "height": 51.082118188795086,
+    "width": 244.60475825019185,
+    "tabOrder": 35006
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Paris has the most listings followed by New York and Sydney"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

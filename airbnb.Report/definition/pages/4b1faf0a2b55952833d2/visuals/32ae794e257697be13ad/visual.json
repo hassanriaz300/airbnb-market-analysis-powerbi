@@ -4,10 +4,10 @@
   "position": {
     "x": 234.33540372670808,
     "y": 449.888198757764,
-    "z": 8500,
+    "z": 5000,
     "height": 191.40372670807454,
     "width": 661.86335403726707,
-    "tabOrder": 4001
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "columnChart",
@@ -42,7 +42,7 @@
                       "Entity": "Listings"
                     }
                   },
-                  "Property": "Avg Rating"
+                  "Property": "Avg Rating Out of 5"
                 }
               },
               "queryRef": "Listings.Avg Rating",
@@ -61,7 +61,7 @@
                     "Entity": "Listings"
                   }
                 },
-                "Property": "Avg Rating"
+                "Property": "Avg Rating Out of 5"
               }
             },
             "direction": "Ascending"
@@ -85,7 +85,7 @@
                               "Entity": "Listings"
                             }
                           },
-                          "Property": "Avg Rating"
+                          "Property": "Avg Rating Out of 5"
                         }
                       },
                       "FillRule": {
@@ -220,6 +220,5 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  },
-  "isHidden": true
+  }
 }

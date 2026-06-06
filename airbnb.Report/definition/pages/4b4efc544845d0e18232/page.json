@@ -1,8 +1,39 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
   "name": "4b4efc544845d0e18232",
-  "displayName": "Overview",
+  "displayName": "Market Overview",
   "displayOption": "FitToPage",
   "height": 720,
-  "width": 960
+  "width": 1280,
+  "pageBinding": {
+    "name": "a9c86d92a0a8c044b465",
+    "type": "Default",
+    "parameters": []
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#F7F8FA'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
 }

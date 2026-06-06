@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "050cf71f55003b6c01c4",
+  "position": {
+    "x": 498.05065234075209,
+    "y": 658.17344589409049,
+    "z": 38000,
+    "height": 55.99386032233307,
+    "width": 252.46354566385261,
+    "tabOrder": 35005
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Entire Place listings account for nearly 50% of the total market"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

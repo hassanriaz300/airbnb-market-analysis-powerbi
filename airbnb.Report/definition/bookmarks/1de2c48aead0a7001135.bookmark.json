@@ -128,82 +128,7 @@
               "objects": {}
             }
           },
-          "5e93ee5d7b14d6360c9a": {
-            "filters": {
-              "byExpr": [
-                {
-                  "name": "3cffa4b26415d6828c3b",
-                  "type": "Advanced",
-                  "expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Listings"
-                        }
-                      },
-                      "Property": "Avg Price"
-                    }
-                  },
-                  "howCreated": 0
-                },
-                {
-                  "name": "7ae4e59c30b7e0ac6656",
-                  "type": "Categorical",
-                  "expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Listings"
-                        }
-                      },
-                      "Property": "room_type"
-                    }
-                  },
-                  "howCreated": 0
-                }
-              ]
-            },
-            "singleVisual": {
-              "visualType": "barChart",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 2,
-                  "Expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Listings"
-                        }
-                      },
-                      "Property": "Avg Price"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "Category": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Listings"
-                        }
-                      },
-                      "Property": "room_type"
-                    }
-                  }
-                ]
-              }
-            }
-          },
           "82a0aaceec4d90d7076b": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "ed91cc70c46705866423": {
             "singleVisual": {
               "visualType": "textbox",
               "objects": {}
@@ -237,7 +162,7 @@
                           "Entity": "Listings"
                         }
                       },
-                      "Property": "Avg Rating"
+                      "Property": "Avg Rating Out of 5"
                     }
                   },
                   "howCreated": 0
@@ -257,7 +182,7 @@
                           "Entity": "Listings"
                         }
                       },
-                      "Property": "Avg Rating"
+                      "Property": "Avg Rating Out of 5"
                     }
                   }
                 }
@@ -276,18 +201,6 @@
                   }
                 ]
               }
-            }
-          },
-          "3791a066be62a36b8625": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
-          "043f140f12b8225c8667": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
             }
           },
           "4387aa95723801d27dd3": {
@@ -408,18 +321,6 @@
             }
           },
           "a2951a6074064535a6a9": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "95f5e43c90d301ce686a": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "2d90a6542079c92b8710": {
             "singleVisual": {
               "visualType": "textbox",
               "objects": {}

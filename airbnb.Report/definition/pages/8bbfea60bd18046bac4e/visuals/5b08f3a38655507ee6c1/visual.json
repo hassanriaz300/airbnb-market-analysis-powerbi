@@ -1,0 +1,110 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "5b08f3a38655507ee6c1",
+  "position": {
+    "x": 10,
+    "y": 0,
+    "z": 0,
+    "height": 280,
+    "width": 280,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "#0F5C5C"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Teal: #1B8A87"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Coral red: #F45B69"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Yellow: #F6B82F"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Green: #79A95C"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Purple: #8C78B5"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Light background: #F7FAFA"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Border: #DDE7E7"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Text dark: #20272B"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Text grey: #6B6F72"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

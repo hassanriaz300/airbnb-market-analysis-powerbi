@@ -24,6 +24,19 @@
           }
         }
       }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
     ]
   },
   "resourcePackages": [
@@ -43,13 +56,68 @@
       "type": "RegisteredResources",
       "items": [
         {
-          "name": "icons8-magnifying-glass-1005633312301241142.png",
-          "path": "icons8-magnifying-glass-1005633312301241142.png",
+          "name": "bulb011504540807431796.png",
+          "path": "bulb011504540807431796.png",
           "type": "Image"
         },
         {
-          "name": "icons8-star-6444192524841153447.png",
-          "path": "icons8-star-6444192524841153447.png",
+          "name": "bulb8685693771499645.png",
+          "path": "bulb8685693771499645.png",
+          "type": "Image"
+        },
+        {
+          "name": "House3804634024506013.png",
+          "path": "House3804634024506013.png",
+          "type": "Image"
+        },
+        {
+          "name": "insight_bar_chart_icon3218608600594255.png",
+          "path": "insight_bar_chart_icon3218608600594255.png",
+          "type": "Image"
+        },
+        {
+          "name": "insight_bed_icon05341826006295547.png",
+          "path": "insight_bed_icon05341826006295547.png",
+          "type": "Image"
+        },
+        {
+          "name": "insight_bed_icon6416466913701487.png",
+          "path": "insight_bed_icon6416466913701487.png",
+          "type": "Image"
+        },
+        {
+          "name": "kpi_avg_price_dollar06499939959919909.png",
+          "path": "kpi_avg_price_dollar06499939959919909.png",
+          "type": "Image"
+        },
+        {
+          "name": "kpi_avg_rating_star09058309018894672.png",
+          "path": "kpi_avg_rating_star09058309018894672.png",
+          "type": "Image"
+        },
+        {
+          "name": "kpi_avg_rating_star4836245544867872.png",
+          "path": "kpi_avg_rating_star4836245544867872.png",
+          "type": "Image"
+        },
+        {
+          "name": "kpi_total_cities_building2728146699561489.png",
+          "path": "kpi_total_cities_building2728146699561489.png",
+          "type": "Image"
+        },
+        {
+          "name": "kpi_total_hosts_people17321760471396552.png",
+          "path": "kpi_total_hosts_people17321760471396552.png",
+          "type": "Image"
+        },
+        {
+          "name": "kpi_total_listings_house4359324402708452.png",
+          "path": "kpi_total_listings_house4359324402708452.png",
+          "type": "Image"
+        },
+        {
+          "name": "Rental842204236349421.png",
+          "path": "Rental842204236349421.png",
           "type": "Image"
         }
       ]
@@ -61,7 +129,6 @@
     "defaultDrillFilterOtherVisuals": true,
     "allowChangeFilterTypes": true,
     "useEnhancedTooltips": true,
-    "filterPaneHiddenInEditMode": true,
     "useDefaultAggregateDisplayName": true
   }
 }

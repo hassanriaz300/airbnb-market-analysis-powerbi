@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
   "name": "3eed9881089aa0e0384d",
   "position": {
-    "x": 628.77018633540376,
-    "y": 73.341614906832291,
-    "z": 3000,
-    "height": 136.84472049689441,
-    "width": 330.93167701863354,
-    "tabOrder": 2000
+    "x": 61.073138753005274,
+    "y": 0,
+    "z": 2000,
+    "height": 173.97879983822551,
+    "width": 241.4929659497453,
+    "tabOrder": 0
   },
   "visual": {
     "visualType": "textbox",
@@ -21,9 +21,10 @@
                   {
                     "value": "Paris",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontFamily": "Segoe UI Semibold",
                       "fontSize": "9pt",
-                      "color": "#d64550"
+                      "color": "#1b7575"
                     }
                   },
                   {
@@ -36,9 +37,10 @@
                   {
                     "value": "New York and Sydney",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontFamily": "Segoe UI Semibold",
                       "fontSize": "9pt",
-                      "color": "#d64550"
+                      "color": "#1b7575"
                     }
                   },
                   {
@@ -56,5 +58,6 @@
       ]
     },
     "drillFilterOtherVisuals": true
-  }
+  },
+  "parentGroupName": "3feedab5c97778641ce4"
 }

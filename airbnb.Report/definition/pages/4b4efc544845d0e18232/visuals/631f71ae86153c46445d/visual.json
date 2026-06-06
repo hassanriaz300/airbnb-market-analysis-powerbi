@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
   "name": "631f71ae86153c46445d",
   "position": {
-    "x": 300.52173913043475,
+    "x": 139.92619926199262,
     "y": 0,
     "z": 0,
-    "height": 47.403726708074537,
-    "width": 358.65838509316768,
+    "height": 69.077490774907744,
+    "width": 707.60147601476012,
     "tabOrder": 0
   },
   "visual": {
@@ -19,17 +19,42 @@
               {
                 "textRuns": [
                   {
-                    "value": "Airbnb review data analysis",
+                    "value": "Airbnb Market Overview",
                     "textStyle": {
                       "fontWeight": "bold",
-                      "fontFamily": "Segoe UI Semibold",
                       "fontSize": "20pt",
-                      "color": "#666666"
+                      "color": "#1f2937"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Listings, pricing, host activity, and ratings across major cities",
+                    "textStyle": {
+                      "fontSize": "11pt",
+                      "color": "#6b7280"
                     }
                   }
                 ]
               }
             ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
           }
         }
       ]

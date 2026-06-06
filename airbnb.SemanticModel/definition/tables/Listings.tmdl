@@ -38,7 +38,7 @@ table Listings
 		lineageTag: 0461311b-687a-461e-8c44-75f325d52771
 
 	measure 'Total Listing' = COUNT(Listings[listing_id])
-		formatString: 0
+		formatString: #,0
 		lineageTag: 6edf5414-7445-4fd0-99b8-be523f79dc65
 
 	measure 'Superhost lisitings' =
@@ -104,9 +104,9 @@ table Listings
 
 		annotation PBI_FormatHint = {"currencyCulture":"en-US"}
 
-	measure 'Avg Rating' =
+	measure 'Avg Rating Out of 5' =
 			
-			AVERAGE(Listings[review_scores_rating])
+			DIVIDE(AVERAGE(Listings[review_scores_rating]), 20)
 		formatString: 0.0
 		lineageTag: ffa4dc8e-be9a-4a6e-a585-3561b9467f02
 
@@ -157,12 +157,12 @@ table Listings
 
 	column host_id
 		dataType: int64
-		formatString: 0
+		formatString: #,0
 		lineageTag: 0e323751-4c62-416c-8e96-e9e899e2f299
-		summarizeBy: sum
+		summarizeBy: count
 		sourceColumn: host_id
 
-		annotation SummarizationSetBy = Automatic
+		annotation SummarizationSetBy = User
 
 	column host_since
 		dataType: dateTime
