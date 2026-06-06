@@ -3,7 +3,7 @@
 A Power BI dashboard project analyzing public rental listing data across major cities.  
 The dashboard focuses on market size, pricing, room types, host activity, superhost distribution, and guest rating performance.
 
-![Dashboard Overview](screenshots/dashboard-overview.png)
+![Dashboard Overview](screenshots/Screenshot%20Overview.png)
 
 ---
 
