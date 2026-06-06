@@ -58,7 +58,7 @@ Main visuals include:
 - Bookmark navigation between overall and detailed views
 - Key insight text explaining rating and market patterns
 
-![Ratings Analysis](screenshots/ratings-analysis.png)
+![Ratings Analysis](screenshots/Screenshot Rating Analysis.png)
 
 ---
 
